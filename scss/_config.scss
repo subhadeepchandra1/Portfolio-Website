@@ -1,4 +1,4 @@
-$primary-color: #71e;
+$primary-color: rgb(68, 65, 71);
 $secondary-color: #fd7f00;
 $show-home-image: true;
 $home-image: url(../img/final.webp);
@@ -26,6 +26,14 @@ $background-opacity: 0.3;
             z-index: -1;
             background: rgba($primary-color,$background-opacity);
         }
+    }
+}
+
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    } @else {
+        @return #fff;
     }
 }
 
