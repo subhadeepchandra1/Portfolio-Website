@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfolio_website",
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
   "main": "index.js",
@@ -13,5 +13,13 @@
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhadeepchandra1/Portfolio-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subhadeepchandra1/Portfolio-Website/issues"
   }
 }
